@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  height: 100%;
+<<<<<<< HEAD
+}
+=======
+}
+>>>>>>> 68c1b569 (Initial Tiles Web app (Next.js + builder + viewer))
