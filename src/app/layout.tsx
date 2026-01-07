@@ -1,22 +1,14 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Tiles",
-  description: "Profile tiles builder"
+  title: "Tiles MVP",
+  description: "Public viewer + builder UI (localStorage) prototype."
 };
 
-export default function RootLayout({
-  children
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className="bg-black text-white">{children}</body>
+      <body>{children}</body>
     </html>
   );
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 68c1b569 (Initial Tiles Web app (Next.js + builder + viewer))
